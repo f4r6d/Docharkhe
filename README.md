@@ -18,6 +18,8 @@ Docharkhe is a RESTfull API for renting bicycle using:
 
 - clone this repository
 - composer install
+- copy .env.example .env
+- php artisan key:generate
 - php artisan migrate --seed
 - php artisan serve
 - login as admin@admin.com with 'password' or register new user
